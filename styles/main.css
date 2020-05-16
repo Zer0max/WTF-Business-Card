@@ -8,5 +8,71 @@ html {
     box-sizing: inherit;
 }
 
+/*---- General ----*/
+
+.highlight {
+    font-style: normal;
+    font-weight: normal;
+    color: #ED6D05;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #E20613;
+}
+
 /*---- Business Card ----*/
+
+.card-background {
+    background-color: #2C2141;
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px;
+    max-width: 624px;
+    min-height: 320px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+}
+.card-body__photo {
+    width: 148px;
+    height: 148px;
+}
+
+.card-body__infromations {
+    margin-left: 32px;
+}
+
+.card-body__header {
+    margin-bottom: 24px;
+}
+
+.card-body__name{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 41px;
+    padding: 0;
+    margin: 0;
+}
+.card-body__title {
+    font-size: 16px;
+    font-style: italic;
+    color:#545454;
+    padding: 0;
+    margin: 0;
+}
+
+.card-body__description {
+
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 22px;
+}
 
